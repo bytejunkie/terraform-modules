@@ -8,4 +8,7 @@ variable "aws_region" {
     default = "eu-west-1"
 }
 
-variable "environment" {}
+variable "environment" {
+  type = string
+  default = ""
+}
